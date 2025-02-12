@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 🤍",
+    pageTitle: "questions",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -49,9 +49,9 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🤍💚🧸"  // These will bounce around
+        title: "Mafuyu, ",
+        message: "I am genuinely so gifted to be with you. I'm so glad I can call you my valentine",
+        emojis: "🤍💚"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -59,9 +59,9 @@ const CONFIG = {
     colors: {
         backgroundStart: "#030100",      // Gradient start (try pastel colors for a soft look)
         backgroundEnd: "#030100",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#FFFFFF",     // Button color (should stand out against the background)
-        buttonHover: "#FFFFFF",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#065604"             // Text color (make sure it's readable!)
+        buttonBackground: "#065604",     // Button color (should stand out against the background)
+        buttonHover: "086606",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#FFFFFF"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dzvraogdm/video/upload/v1739323581/Relaxing_Animal_Crossing_Evening_Music_Ambience_Sounds_mh1r9w.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
